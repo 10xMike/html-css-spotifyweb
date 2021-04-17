@@ -34,74 +34,21 @@
 </head>
 
 <body>
-    <div class="wrapper h-100 text-white bg_darkblue">
+    <div id="wrapper" class="text-white d-flex flex-column">
 
-        <main class="d-flex">
-            <nav class="d-flex flex-column justify-content-between bg_black">
-                <div>
-                    <img src="./css/img/logo.svg" alt="logodispotify">
+        <main class="bg_darkblue">
+            <nav class="bg_black overflow-hidden">
+                <!-- logo -->
+                <div class="pt-4 pl-2">
+                    <img class="logo d-none d-sm-block" src="./css/img/logo.svg" alt="logo spotify">
+                    <img class="small_logo d-sm-none" src="./css/img/logo-small.svg" alt="logo small spotify">
                 </div>
-                <div class="icons flex-row">
-                    <img src="./css/img/home.svg" alt=""> <span>Home</span>
-                    <img src="./css/img/search.svg" alt=""> <span>Cerca</span>
-                    <img src="./css/img/libreria.svg" alt=""> <span>La tua libreria</span>
-                </div>
-                <div class="playlist">
-                    <h4>Playlist</h4>
-                    <div class="">
-                        <img src="./css/img/.svg" alt="">
-                    </div>
-                    <ul>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                    </ul>
-                </div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, facere.
-            </nav>
-            <div class="content justify-content-flex-end">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem temporibus ipsa a impedit,
-                    corrupti inventore eaque incidunt eveniet facere vitae quibusdam alias? Magni in delectus ipsum
-                    repellendus expedita pariatur commodi!
-                </p>
-            </div>
+                <!-- /logo -->
+            </nav>  
+            <div id="content" role="content" class="">lorem</div>
         </main>
-        <footer>
-            <div class="row">
-                <div class="col-2">
-                    Lorem, ipsum.
-                </div>
-                <div class="col-8">
-                    <div class="row">
-                        <div class="col-8 alignment">
-                            <div><i class="fas fa-random"></i></div>
-                            <div><i class="fas fa-step-backward"></i></div>
-                            <div><i class="far fa-play-circle"></i></div>
-                            <div><i class="fas fa-step-forward"></i></div>
-                            <div><i class="fas fa-redo-alt"></i></div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    Lorem ipsum dolor sit.
-                </div>
-                <div class="col-2">
-                    Lorem ipsum dolor sit amet.
-                </div>
-            </div>
-        </footer>
 
-        <!--  <footer class="d-flex flex-row justify-content-space-around bg_gray">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, inventore? Voluptate illo deleniti
-            accusantium natus assumenda consequatur minus. Non, pariatur.
-        </footer> -->
+        <footer class="bg_gray">lorem</footer>
     </div>
 </body>
-
 </html>
