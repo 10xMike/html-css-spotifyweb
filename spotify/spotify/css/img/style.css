@@ -39,7 +39,6 @@ main{
 }
 #content{
     width: calc(100vh - 230px);
-    height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -52,18 +51,20 @@ footer{
 }   
 
 .top_icons{
-    width: 40px;
+    width: 60px;
     height: auto;
 }
 .limeborder{
     border-left: 3px solid #C2F573;
 }
 
-.alignment{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.transparency{
+    opacity: 0.75;
 }
+.playlist_text{
+    font-size: 1.25rem;
+}
+
 
 /* Colors CSS */
 .bg_gray{
