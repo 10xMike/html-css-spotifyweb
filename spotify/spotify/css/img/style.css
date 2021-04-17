@@ -11,11 +11,11 @@ body{
     font-size: ;
 }
 /* */
-.clearfix{
+/* .clearfix{
     display: table;
     content: '';
     clear: both;
-}
+} */
 /* */
 #wrapper{
     width: 100%;
@@ -63,6 +63,12 @@ footer{
 }
 .playlist_text{
     font-size: 1.25rem;
+}
+.playlist>ul>li{
+    margin-top: 18px;
+    opacity: 0.75;
+    padding-left: 10px;
+    font-size: 1rem;
 }
 
 
