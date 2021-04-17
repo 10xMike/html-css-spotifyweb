@@ -37,6 +37,12 @@ footer{
     height: auto;
 }
 
+.alignment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Colors CSS */
 .bg_gray{
     background-color: #282828;
