@@ -98,7 +98,24 @@ footer{
 }
 .limebottom{
     border-bottom: 3px solid #C2F573;
-} 
+}
+
+.bg_black_opacity{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+.btn{
+    border: 1px solid white;
+    color: white;
+
+}
+.margintop{
+    margin-top: 100px;
+}
+
 /* Colors CSS */
 .bg_gray{
     background-color: #282828;
