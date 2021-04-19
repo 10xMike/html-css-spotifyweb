@@ -108,12 +108,15 @@ footer{
 }
 
 .btn{
-    border: 1px solid white;
     color: white;
-
+    border: 3px solid white;
 }
 .margintop{
     margin-top: 100px;
+}
+.marginibottone{
+    margin-top: 15px;
+    margin-left: 70%;
 }
 
 /* Colors CSS */
