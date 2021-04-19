@@ -146,6 +146,14 @@ footer{
 .playbutton:hover{
     transform: scale(1.25);
 }
+/* .playoverlay{
+    transition: all .1 ease;
+    opacity: 0;
+
+}
+.playoverlay:hover{
+   opacity: 1;
+} */
 /* Colors CSS */
 .bg_gray{
     background-color: #282828;
@@ -161,4 +169,24 @@ footer{
 }
 .limegreen_fx{
     background-color: #c2f573;
+}
+/* Media queries */
+@media screen and (min-width: 576px) {
+    .album{
+        flex-basis: calc((100% / 2) - 1rem);
+        margin: 0.5rem;
+    }
+}
+@media screen and (min-width: 767px) {
+    .album{
+        flex-basis: calc((100% / 4) - 1rem);
+        margin: 0.5;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .album{
+        flex-basis: calc((100% / 6) - 1rem);
+        margin: 0.5rem;
+    }
 }
