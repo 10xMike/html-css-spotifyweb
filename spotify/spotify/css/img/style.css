@@ -118,6 +118,7 @@ footer{
 }
 .calltoaction{
     transition: all .1s ease-in-out;
+    z-index: 2;
 }
 .calltoaction:hover{
     transform: scale(1.1);
