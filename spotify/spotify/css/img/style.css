@@ -112,7 +112,7 @@ footer{
     border: 3px solid white;
 }
 .calltoaction{
-    transition: all .2s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 .calltoaction:hover{
     transform: scale(1.1);
@@ -128,7 +128,19 @@ footer{
 .smallalbum{
     width: 40px;
 }
-
+.album{
+    transition: all .2 ease-in-out;
+}
+.album:hover{
+    cursor: pointer;
+    filter: brightness(30%);
+}
+.playbutton{
+    transition: all .1 ease-in-out;
+}
+.playbutton:hover{
+    transform: scale(1.25);
+}
 /* Colors CSS */
 .bg_gray{
     background-color: #282828;
