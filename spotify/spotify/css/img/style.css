@@ -99,7 +99,12 @@ footer{
 .limebottom{
     border-bottom: 3px solid #C2F573;
 }
-
+.linktransition{
+    transition: all .1s ease-in-out;
+}
+.linktransition:hover{
+    filter: brightness(30%);
+}
 .bg_black_opacity{
     background-color: rgba(0, 0, 0, 0.7);
     height: 80px;
