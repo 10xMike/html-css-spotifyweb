@@ -149,6 +149,10 @@ footer {
 .playbutton:hover {
   transform: scale(1.25);
 }
+.timebar{
+  width: 700px;
+  height: auto;
+}
 
 /* Colors CSS */
 .bg_gray {
