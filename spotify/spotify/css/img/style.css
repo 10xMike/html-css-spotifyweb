@@ -37,7 +37,9 @@ nav {
   overflow-y: auto;
   overflow-x: hidden;
 }
-
+.pl-3{
+  display: none;
+}
 footer {
   min-height: 80px;
   z-index: 1;
@@ -55,6 +57,9 @@ footer {
 
 .transparency {
   opacity: 0.75;
+}
+.playlist{
+  display: none;
 }
 .playlist_text {
   font-size: 1.25rem;
@@ -101,7 +106,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.7);
   height: 80px;
   position: fixed;
-  width: 100%;
+  width: 83.333%;
 }
 
 .btn {
@@ -121,7 +126,12 @@ footer {
 }
 .marginibottone {
   margin-top: 15px;
-  margin-left: 70%;
+  margin-left: auto;
+  margin-right: 20px;
+  display: block;
+}
+.posizionerelativa{
+  position: relative;
 }
 .smallalbum {
   width: 40px;
@@ -162,11 +172,16 @@ footer {
     flex-basis: calc((100% / 2) - 1rem);
     margin: 0.5rem;
   }
+  
 }
+
 @media screen and (min-width: 767px) {
   .album {
     flex-basis: calc((100% / 4) - 1rem);
     margin: 0.5;
+  }
+  .pl-3{
+    display: block;
   }
 }
 
@@ -174,5 +189,11 @@ footer {
   .album {
     flex-basis: calc((100% / 6) - 1rem);
     margin: 0.5rem;
+  }
+  .playlist{
+      display: block;
+    }
+  .pl-3{
+    display: block;
   }
 }
